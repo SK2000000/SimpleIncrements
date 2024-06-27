@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Click Counter Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="light-mode">
+    <div id="game-container">
+      <h2>Click Counter Game</h2>
+      <p>Click the button to increase the counter.</p>
+      <button onclick="clickCounter()" type="button">Click me!</button>
+      <div id="result">You have clicked the button 0 time(s).</div>
+      <p>
+        <button onclick="toggleMode()" type="button">
+          Toggle Dark/Light Mode
+        </button>
+      </p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
